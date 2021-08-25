@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap&subset=cyrillic-ext");
+@import url("https://fonts.googleapis.com/css?family=Caveat:700&display=swap&subset=cyrillic-ext");
+@font-face {
+	font-family: 'RUSWolfenstein';
+	src: url('../fonts/RUSWolfenstein.eot');
+	src: local('../fonts/RUSWolfenstein'),
+		url('../fonts/RUSWolfenstein.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/RUSWolfenstein.woff') format('woff'),
+		url('../fonts/RUSWolfenstein.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+body {
+	color: #9a9a9a;
+	line-height: 1;
+	font-family: "Lato", sans-serif;
+}
+footer {
+	text-align: left;
+}
+.footer__div {
+	font-size: 25px;
+	margin: 10px;
+	color: rgb(75, 13, 126);
+}
+.footer a{
+	text-decoration: overline;
+}
+.footer__div{
+	text-decoration: underline;
+}
+
+.title {
+font-family: Lobster;
+font-size: 30px;
+color: rgba(14, 104, 107, 0.931);
+text-decoration: underline;
+line-height: 150%;
+letter-spacing: 3px;
+text-transform: none;
+text-shadow: 10px -5px 3px rgb(33, 49, 136), -7px 8px 3px rgb(143, 15, 15);
+}
+body {
+	text-align: center;
+}
+ul {
+	margin: 20px;
+}
+.nav {
+	font-size: 20px;
+}
+h1 {
+	font-family: Caveat;
+	font-weight: 700;
+	font-size: 50px;
+}
+.text {
+	text-align: justify;
+	margin: 10px;
+	color: black;
+	font-size: 20px;
+	font-style: italic;
+	line-height: 105%;
+	text-indent: 3%;
+}
+a:visited {
+	color: darkgreen;
+}
+.fonts {
+	color: darkmagenta;
+	font-family: "RUSWolfenstein";
+	font-style: normal;
+	font-size: 25px;
+}
